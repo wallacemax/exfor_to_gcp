@@ -1,0 +1,91 @@
+{
+    "_id": "T0297009",
+    "_rev": "1-e3db0b43674bde3ab1fb8c54bedee451",
+    "ID": "T0297009",
+    "DATEMOD": "20040719",
+    "BIB": {
+        "INSTITUTE": "(1CANMCG) Radiochemistry Laboratory.",
+        "REFERENCE": "(J,CJP,41,762,1963)",
+        "AUTHOR": "(J.H.DAVIES,L.YAFFE)",
+        "TITLE": "Nuclear Charge Dispersion in the High-Energy Fission\n of Uranium.",
+        "FACILITY": "(SYNCY,1CANMCG)",
+        "SAMPLE": "Uranium foil target, 47.5 mg/cm**2 thick, sandwiched\n between two similar foils to guard against recoil\n losses.",
+        "METHOD": "(ACTIV) Target irradiatiation usually of for the\n order of 30 minutes.\n(CHSEP) Chemical separation procedure took about 40\n minutes.",
+        "CORRECTION_firstSub": "Small corrections for self-absorption in the 4 pi\n source.",
+        "ERR-ANALYS_firstSub": "(DATA-ERR) Errors quoted are standard deviations\n compounded from estimated errors in decay curve\n analyses, counter efficiencies, and chemical yield\n determinations.",
+        "ADD-RES": "Independent formation cross-sections of 135Cs and 137Cs\n have Been interpolated from charge dispersion curves\n and reported in Table 16.",
+        "HISTORY": "(20040719C) Converted from data set O0338.",
+        "REACTION": "(92-U-0(P,F)55-CS-132,IND,SIG)",
+        "DETECTOR": "(NAICR) 3x3 inchs NaI crystal.",
+        "DECAY-DATA": "(55-CS-132,6.5D,DG,670.,0.98)",
+        "MONITOR": "(92-U-0(P,F)55-CS-136-G,M+,SIG) Measured in this\n experiment.",
+        "CORRECTION": "136Cs contribution was subtracted from total gamma\n spectrum.",
+        "ERR-ANALYS": "Error of +-10% in accepted values of monitor cross\n sections was not included.",
+        "MISC-COL": "(MISC) Number of determinations."
+    },
+    "DATA": {
+        "DESCR": [
+            "EN",
+            "DATA",
+            "DATA-ERR",
+            "MONIT",
+            "MONIT-ERR",
+            "MISC"
+        ],
+        "UNIT": {
+            "EN": "MEV",
+            "DATA": "MB",
+            "DATA-ERR": "MB",
+            "MONIT": "MB",
+            "MONIT-ERR": "MB",
+            "MISC": "NO-DIM"
+        },
+        "TABLE": {
+            "EN": [
+                65.0,
+                75.0,
+                80.0
+            ],
+            "DATA": [
+                1.7,
+                2.7,
+                3.4
+            ],
+            "DATA-ERR": [
+                0.3,
+                0.3,
+                0.4
+            ],
+            "MONIT": [
+                20.0,
+                19.0,
+                19.0
+            ],
+            "MONIT-ERR": [
+                3.0,
+                2.0,
+                2.0
+            ],
+            "MISC": [
+                1.0,
+                2.0,
+                1.0
+            ]
+        }
+    },
+    "ACCNUM": "T0297",
+    "SUBACCNUM": "009",
+    "META": {
+        "PROJECTILE": {
+            "SYM": "p",
+            "A": 1,
+            "Z": 1
+        },
+        "TARGET": {
+            "SYM": "U",
+            "A": 238,
+            "Z": 92,
+            "nat": 1.0
+        }
+    }
+}

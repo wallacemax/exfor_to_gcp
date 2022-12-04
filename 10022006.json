@@ -1,0 +1,72 @@
+{
+    "_id": "10022006",
+    "_rev": "1-803fc457cc5bd681a62398990cbf1908",
+    "ID": "10022006",
+    "DATEMOD": "19990719",
+    "BIB": {
+        "INSTITUTE": "(1USASTF)",
+        "REFERENCE": "(R,AFWL-TR-68-134,196903)",
+        "AUTHOR": "(R.C.Barrall,J.A.Holmes,M.Silbergeld)",
+        "TITLE": "High energy neutron cross section validation and\n neutron flux spectrum using the HENRE source.",
+        "FACILITY": "High energy neutron reaction experiment (HENRE) source.\n For full description of source see Z.G.Burson,\n CEX-65.04 (1971).",
+        "INC-SOURCE": "(D-T) T(d,n) source. 10**13 neutrons/sec.",
+        "METHOD": "(ACTIV) Activation",
+        "DETECTOR": "(NAICR) 3 in by 3 in NaI(Tl) crystal, calibrated with\n standard sources.",
+        "MONITOR": "(13-AL-27(N,A)11-NA-24,,SIG)",
+        "DECAY-MON": "(11-NA-24,.625D,DG,1370.,1.00)",
+        "CORRECTION": "Corrected for effect of low-energy neutrons in spectrum",
+        "ERR-ANALYS": "No information",
+        "ADD-RES": "Reference also contains early values for reactions\n reported in Nucl.Phys.A, 138, 387 (1969), measured\n with an insulated-core transformer accelerator",
+        "STATUS": "(APRVD) Approved by author.\n(TABLE) Data taken from report.",
+        "HISTORY": "(19711214C)\n(19730509A) BIB correction. EN-ERR changed to EN-RSL.\n(19800723A) Converted to REACTION formalism\n(19810423A) BIB correction to MONITOR.\n(19860422A) BIB updates.\n(19990719A) Converted to new date formats, lower case.\n(20110727A) SD: in COMMON section dimension of MONIT\n                changed: MEV => B.",
+        "REACTION": "(16-S-32(N,P)15-P-32,,SIG)",
+        "DECAY-DATA": "(15-P-32,14.2D,B)"
+    },
+    "DATA": {
+        "DESCR": [
+            "EN",
+            "EN-RSL",
+            "MONIT",
+            "DATA",
+            "DATA-ERR"
+        ],
+        "UNIT": {
+            "EN": "MEV",
+            "EN-RSL": "MEV",
+            "MONIT": "MB",
+            "DATA": "MB",
+            "DATA-ERR": "MB"
+        },
+        "TABLE": {
+            "EN": [
+                14.6
+            ],
+            "EN-RSL": [
+                0.2
+            ],
+            "MONIT": [
+                120.7
+            ],
+            "DATA": [
+                214.0
+            ],
+            "DATA-ERR": [
+                16.0
+            ]
+        }
+    },
+    "ACCNUM": "10022",
+    "SUBACCNUM": "006",
+    "META": {
+        "PROJECTILE": {
+            "SYM": "n",
+            "A": 1,
+            "Z": 0
+        },
+        "TARGET": {
+            "SYM": "S32",
+            "A": 32,
+            "Z": 16
+        }
+    }
+}
