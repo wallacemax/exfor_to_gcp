@@ -5,17 +5,12 @@ from dask import dataframe as dd
 import time
 from multipro import multipro_helper
 import numpy as np
+import creds
 
 datasetids='datasetids'
 
 def get_json_put_json(documentnumber):
-    #creds for docker container
-    this_start = time.time()
-    USERNAME="admin"
-    PASSWORD="password"
-    DB_NAME="exfor"
-    KEYS_PATH="/Users/maxwallace/bkup/codes/not/dataengineering/exfor_to_gcp/nuclear-data-raw-4035322a0d52.json"
-    bucket_name="exfor_lake"
+    
     
     client = CouchDB(USERNAME, PASSWORD, url="http://127.0.0.1:5984", connect=True)
 
