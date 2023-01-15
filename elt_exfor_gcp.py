@@ -1,8 +1,3 @@
-# Use CouchDB to create a CouchDB client
-# from cloudant.client import CouchDB
-# client = CouchDB(USERNAME, PASSWORD, url='http://127.0.0.1:5984', connect=True)
-
-# Use Cloudant to create a Cloudant client using account
 from cloudant.client import CouchDB
 from google.cloud import storage
 import json
@@ -14,6 +9,7 @@ import numpy as np
 datasetids='datasetids'
 
 def get_json_put_json(documentnumber):
+    #creds for docker container
     this_start = time.time()
     USERNAME="admin"
     PASSWORD="password"
@@ -36,9 +32,6 @@ def get_json_put_json(documentnumber):
     if 'missing' in response.json():
         print('missing')
         return
-    
-    #with open(f'/Users/maxwallace/bkup/codes/not/dataengineering/exfor_to_gcp/x4_json/{documentnumber}.json', 'w', encoding='utf-8') as f:
-        #json.dump(response.json(), f, ensure_ascii=False, indent=4)    
     
     #put the json into the cloud
     storage_client = storage.Client.from_service_account_json(KEYS_PATH)
