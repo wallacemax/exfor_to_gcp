@@ -1,3 +1,5 @@
+#from https://gist.github.com/blaylockbk/8b469f2c79660ebdd18915202e0802a6
+
 import numpy as np
 import inspect
 from multiprocessing import Pool, cpu_count          # Multiprocessing
